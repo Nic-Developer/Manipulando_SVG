@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200&display=swap');
+ 
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+ background: #FFE000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #799F0C, #FFE000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #799F0C, #FFE000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+#svg-map {
+    cursor: pointer;
+}
+
+#svg-map .circle, #svg-map path {
+    fill: #90ee90;
+}
+
+#svg-map a:hover .circle, #svg-map a:hover path {
+    fill: #78866b !important;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+#text {
+    width: 350px;
+    height: auto;
+    padding-left: 100px;
+    text-align: right;
+    color: black;
+    text-shadow: 1px 1px 1px #FFFFFF;
+}
